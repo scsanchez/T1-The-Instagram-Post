@@ -1,64 +1,52 @@
-:root{
-    background: black;
+body {
+    background-color: black;
 }
-body{
-    background-color:black;
-    }
-.wrapper{
-    margin: 2% 15% 100% 15%;
-    }
-
-h2{
-    font-weight:bold;
+.title { 
+    width: 50rem;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    
 }
 
-.img{
-    width: 100%;
-
+.text{
+    display: block;
+    margin: 0px; 
 }
+
+.bold {
+    font-weight: bold;
+}
+
 img{
-    width: inherit;
-    height: 100%;
-    margin:auto;
-}
-.insta-logo{
-    background-color: darkblue;
-}
-
-.insta-header{
-    height: 80px;
-    background-color: white;
-    padding: 15px;
-    
-}
-.insta-puntos{
-    background-color: brown;
-
-}
-
-.bold{
-    font-weight: 700;
-}
-/*.
-tenemos que saber como darle estilo a la clase footer-logo
-En la parte de logos añadir display inle:block;
-para alinear los logos 
-
-*/
-.iconos{
-    background-color: white;
-    height: 40px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    
 }
 
-.footer{
-    height: 300px;
-    background-color: white;
-    padding: 15px;
+header, section, article {
+    padding: 10px;
+    display: flex;
 }
-.bookmark{
-    align-items: right;
+
+article {
+    display: block;
+}
+
+
+p {
+    display: inline-block;
+}
+
+i {
+    font-size: 35px;
+    margin: 1rem;
+}
+
+.logo{
+    width: 90rem;
+    margin-top: 20px;
+}
+
+.break {
+    width: 60rem;
 }
